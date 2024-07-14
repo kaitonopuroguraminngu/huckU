@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>main</title>
+    <link rel="stylesheet" href="css\main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+<body>
+    <main>
+        <h3 class="text t1">鳥羽商船高等専門学校</h3>
+        <h1 class="text t2">情報機械システム工学科</h1>
+        <p class="text t3">情報機械システム工学科は、情報工学、電気電子工学、機械工学を基礎とし、<br>学生自身の個性に応じたカリキュラムを選択することで、地域に貢献し<br>日本の産業を支える実践的技術者としての専門知識・技術を<br>身につけることを目標としています。</p>
+        <div class="se">
+            <select name="sub" class="form-select sele" id="selectmain">
+                <option selected disabled hidden>教科を選択</option>
+                <option value="kou">工学リテラシ</option>
+                <option value="pro">プログラミング</option>
+            </select>
+            <button id="movebtn" class="btn btn-secondary btn">Moving</button>
+        </div>
+        <script src="java\main.js"></script>
+    </main>
+</body>
+</html>
